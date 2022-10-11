@@ -56,8 +56,8 @@ public class SpinnerController : MonoBehaviour
             SpinsCount = Mathf.FloorToInt(v3.z / 360);
 
             // ÍÓÂİ¼õËÙ
-            RotationSpeed *= 0.998f;
-            if (RotationSpeed < 0.01f)
+            RotationSpeed *= 0.993f;
+            if (RotationSpeed < 5f)
             {
                 RotationSpeed = 0;
             }
